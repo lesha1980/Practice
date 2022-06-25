@@ -25,6 +25,17 @@ int main() {
 
 	cout << "Task2" << endl;
 
+	Point point(2, 5, 8);
+	//«бережемо дан≥ у файл
+
+	point.savePointsToTXT("coordsTXT.txt");
+
+	//зчитаЇмо дан≥ з файлу
+
+	point.readPointsFromTXT("coordsTXT.txt");
+	
+	//друк даних
+	point.printCoords();
 
 
 	_getch();
