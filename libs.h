@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 #include <conio.h>
+#include <fstream>
 
 using namespace std;
 
@@ -11,5 +12,6 @@ using namespace std;
 #include "DateBirth.h"
 #include "School.h"
 #include "Student.h"
+#include "Point.h"
 
 

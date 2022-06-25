@@ -2,6 +2,7 @@
 
 int main() {
 
+	cout << "Task1" << endl;
 	Student student;
 	student.setNameStudent("Student");
 	student.setFamilyStudent("Family Student");
@@ -21,6 +22,10 @@ int main() {
 	school.setNameSchool("Name school");
 	student.setSchoolStudent(school);
 	student.printStudent();
+
+	cout << "Task2" << endl;
+
+
 
 	_getch();
 	return 0;
