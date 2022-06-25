@@ -19,6 +19,9 @@
     <Filter Include="Файлы заголовков\School">
       <UniqueIdentifier>{a2bfa8ac-7d56-4b39-bb5d-891739823362}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\Point">
+      <UniqueIdentifier>{22c5e880-866a-4e00-9104-cdfa7ad1715e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="libs.h">
@@ -36,6 +39,9 @@
     <ClInclude Include="School.h">
       <Filter>Файлы заголовков\School</Filter>
     </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Файлы заголовков\Point</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -46,6 +52,9 @@
     </ClCompile>
     <ClCompile Include="Student.cpp">
       <Filter>Файлы заголовков\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Файлы заголовков\Point</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

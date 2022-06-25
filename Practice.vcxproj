@@ -142,11 +142,13 @@
     <ClInclude Include="DateBirth.h" />
     <ClInclude Include="libs.h" />
     <ClInclude Include="MonthEnum.h" />
+    <ClInclude Include="Point.h" />
     <ClInclude Include="School.h" />
     <ClInclude Include="Student.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Point.cpp" />
     <ClCompile Include="School.cpp" />
     <ClCompile Include="Student.cpp" />
   </ItemGroup>

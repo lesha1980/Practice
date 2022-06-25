@@ -2,6 +2,7 @@
 
 int main() {
 
+	cout << "Task1" << endl;
 	Student student;
 	student.setNameStudent("Student");
 	student.setFamilyStudent("Family Student");
@@ -21,6 +22,21 @@ int main() {
 	school.setNameSchool("Name school");
 	student.setSchoolStudent(school);
 	student.printStudent();
+
+	cout << "Task2" << endl;
+
+	Point point(2, 5, 8);
+	//«бережемо дан≥ у файл
+
+	point.savePointsToTXT("coordsTXT.txt");
+
+	//зчитаЇмо дан≥ з файлу
+
+	point.readPointsFromTXT("coordsTXT.txt");
+	
+	//друк даних
+	point.printCoords();
+
 
 	_getch();
 	return 0;
